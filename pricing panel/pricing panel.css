@@ -103,7 +103,7 @@ body {
   border-bottom: 1px solid #e1f1ff;
 }
 
-.pricing-price {
+.pricing-price {ß
   color: #016ff9; 
   display: block;
   font-size: 32px;
@@ -116,7 +116,7 @@ body {
   color: #348efe;
   display: inline-block;
   padding: 15px 35px;
-  text-decoration: none;
+  text-decoration:none;
   margin: 25px 0;
   transition: background-color 200ms ease-in-out;
 }
