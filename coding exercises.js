@@ -212,5 +212,10 @@ const firstNames = fullNames.map(function (name) {
   return name.first;
 });
 //coding exercise 48
+Arrow Function:
+
+const greet =(name) => {
+    return `Hey ${name}!`;
+}
 //coding exercise 49
 //coding exercise 50
