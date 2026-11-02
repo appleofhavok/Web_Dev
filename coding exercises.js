@@ -223,3 +223,7 @@ function validUserNames(usernames) {
     return usernames.filter(name => name.length < 10);
 }
 //coding exercise 50
+Some/Every:
+const allEvens = function (arr) {
+  return arr.every(num => num % 2 === 0);
+}
