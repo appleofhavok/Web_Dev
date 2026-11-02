@@ -1,0 +1,216 @@
+//coding exercise 15:-->
+Variables:
+let myLuckyNumber =37;
+let octopusLimbs =8;
+//coding exercise 16:-->
+Constant:
+const boilingPointC =100;
+const boilingPointF =212;
+//coding exercise 17:-->
+Strings:
+let bestColor="purple";
+let quote='You had me at "hello"';
+//coding exercise 18:-->
+String Trims:
+let whisper = message.trim().toLowerCase();
+//coding exercise 19:-->
+String Method Arguments:
+let facialHair = word.slice(5).replace("o", "e");
+//coding exercise 20:-->
+String Template Literal:
+let roll = `You rolled a ${die1} and a ${die2}. They sum to ${die1 + die2}`;
+//coding exercise 21:-->
+IF statement conditional:
+if (num % 2 === 0) {
+    console.log("even");
+}
+//coding exercise 22:-->
+getColor Conditional:
+if (phrase === 'stop') {
+    console.log('red');
+} else if (phrase === 'slow') {
+    console.log('yellow');
+} else if (phrase === 'go') {
+    console.log('green');
+} else {
+    console.log('purple');
+}
+//coding exercise 23:-->
+Nested Conditionals Practice:
+const num = 102;
+if(num <= 100) {
+    if(num >= 50) {
+        console.log("HEY!");
+    }
+} else {
+    if (num < 103) {
+        if(num % 2 === 0){
+            console.log("YOU GOT ME!");
+        }
+    }
+}
+//coding exercise 24:-->
+Logical and Mystery:
+const mystery = 'P7eeee';
+if(mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1){
+    console.log("YOU GOT IT!!!");
+}
+//coding exercise 25:-->
+Lotto Numbers Array:
+let lottoNumbers=[1,2,3,4,5,6]
+//coding exercise 26:-->
+Array Access:
+const leaderboard = ['Harry', 'Lua', 'Hermione', 'Bellatrix'];
+leaderboard[1]="Luna";
+leaderboard[3]="Draco";
+//coding exercise 27:-->
+Arrays:Push,Pop,Shift,Unshift:
+const planets = ['The Moon','Venus', 'Earth', 'Mars', 'Jupiter'];
+planets.shift();
+planets.push('Saturn');
+planets.unshift('Mercury');
+//coding exercise 28:-->
+Nested Arrays:
+const airplaneSeats = [
+    ['Ruth', 'Anthony', 'Stevie'],
+    ['Amelia', 'Pedro', 'Maya'],
+    ['Xavier', 'Ananya', 'Luis'],
+    ['Luke', null, 'Deniz'],
+    ['Rin', 'Sakura', 'Francisco']
+];
+To access inside the array:
+airplaneSeats[3][1]='Hugo';
+//coding exercise 29:-->
+First Object:
+const product={
+    name:'Gummy Bears',
+    inStock:true,
+    price:1.99,
+    flavors:['apple','cherry','grape'],
+};
+//coding exercise 30:-->
+Object Access:
+const fullAddress = `${restaurant.address}, ${restaurant.city}, ${restaurant.state} ${restaurant.zipcode}`;
+//coding exercise 31:-->
+For Loop:
+for(let i =0;i< 6;i++)
+{console.log("Da ba dee da ba daa")
+;}
+//coding exercise 32:-->
+More For Loops:
+for (let i = 25; i >= 0; i -= 5) {
+    console.log(i);
+}
+//coding exercise 33:-->
+Iterating Arrays:
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+for (let i = 0; i < people.length; i++) {
+    console.log(people[i].toUpperCase());
+}
+//coding exercise 34:-->
+For...Of:
+const numbers = [1,2,3,4,5,6,7,8,9]; 
+for(let num of numbers) {
+    console.log(num * num);
+}
+//coding exercise 35:-->
+Heart Function:
+
+function printHeart() {
+    console.log("<3");
+}
+printHeart();
+//coding exercise 36:-->
+Rant Function:
+
+function rant(message) {
+    console.log(message.toUpperCase());
+    console.log(message.toUpperCase());
+    console.log(message.toUpperCase());
+}
+
+//coding exercise 37:-->
+Snake Eyes Multi Argument:
+function isSnakeEyes(die1,die2) {
+    if (die1 === 1 && die2 === 1){
+    console.log('Snake Eyes!');
+    } else {
+        console.log('Not Snake Eyes!');
+    }
+}
+//coding exercise 38:-->
+Return Value:
+function multiply(num1,num2){
+return num1*num2;
+}
+//coding exercise 39:-->
+isShortsWeather Function:
+function isShortsWeather(temperature) {
+   return temperature >=75;
+}
+//coding exercise 40:-->
+Last Element:
+function lastElement(arr) {
+    if (arr.length === 0) {
+        return null;
+    } else {
+        return arr[arr.length - 1];
+    }
+}
+//coding exercise 41:-->
+Capitalize:
+function capitalize(word){
+ return word[0].toUpperCase() + word.slice(1);
+}
+//coding exercise 42:-->
+Sum Array:
+function sumArray(arr){
+    let total=0;
+    for (let i=0; i < arr.length; i++){
+        total = total + arr[i];
+    }
+    return total;
+}
+//coding exercise 43:-->
+Days of the Week:
+const days =["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+function returnDay(num){
+   if (num < 1 || num > 7){
+   return null;
+}
+return days [num - 1];
+}
+//coding exercise 44:-->
+Function Expressions:
+
+const square = function(num){
+    return num*num;
+}
+//coding exercise 45-->
+Method:
+const square = {
+  area(side) {
+    return side * side;
+  },
+  perimeter(side) {
+    return side * 4;
+  }
+}
+//coding exercise 46
+Egg Count:
+const hen = {
+  name: 'Helen',
+  eggCount: 0,
+  layAnEgg() {
+    this.eggCount++;
+    return 'EGG';
+  }
+};
+//coding exercise 47
+Maps:
+const firstNames = fullNames.map(function (name) {
+  return name.first;
+});
+//coding exercise 48
+//coding exercise 49
+//coding exercise 50
