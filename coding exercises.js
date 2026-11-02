@@ -218,4 +218,8 @@ const greet =(name) => {
     return `Hey ${name}!`;
 }
 //coding exercise 49
+Filter:
+function validUserNames(usernames) {
+    return usernames.filter(name => name.length < 10);
+}
 //coding exercise 50
