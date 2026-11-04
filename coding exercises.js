@@ -236,3 +236,7 @@ const checkbox = document.querySelector('input[type="checkbox"]');
 //coding exercise 53
 const span = document.querySelector("span");
 span.innerText = 'Disgusting';
+//coding exercise 54
+const eggImg = document.querySelector('img');
+eggImg.src = 'https://images.unsplash.com/photo-1581061090142-c2cd0ec9f021?w=200';
+eggImg.alt = 'chicken';
