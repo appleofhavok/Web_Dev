@@ -240,3 +240,11 @@ span.innerText = 'Disgusting';
 const eggImg = document.querySelector('img');
 eggImg.src = 'https://images.unsplash.com/photo-1581061090142-c2cd0ec9f021?w=200';
 eggImg.alt = 'chicken';
+// coding exercise 55
+    const image = document.querySelector("img");
+    image.style.width = '150px';
+    image.style.borderRadius = '50%';
+     
+    const container = document.querySelector('#container');
+    container.style.textAlign = 'center';
+
