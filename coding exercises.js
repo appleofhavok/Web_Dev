@@ -247,4 +247,9 @@ eggImg.alt = 'chicken';
      
     const container = document.querySelector('#container');
     container.style.textAlign = 'center';
+//coding exercise 56
+const letters = document.querySelectorAll('h1 span');
 
+for (let i = 0; i < letters.length; i++) {
+    letters[i].style.color = colors[i];
+}
