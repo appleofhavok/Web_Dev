@@ -233,3 +233,6 @@ const heading = document.getElementById('mainheading');
 //coding exercise 52
 const doneTodos = document.querySelectorAll('.done');
 const checkbox = document.querySelector('input[type="checkbox"]');
+//coding exercise 53
+const span = document.querySelector("span");
+span.innerText = 'Disgusting';
