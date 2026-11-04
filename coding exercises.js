@@ -253,3 +253,9 @@ const letters = document.querySelectorAll('h1 span');
 for (let i = 0; i < letters.length; i++) {
     letters[i].style.color = colors[i];
 }
+//coding exercise 57
+const lis = document.querySelectorAll('li');
+ 
+for (let li of lis) {
+  li.classList.toggle('highlight');
+}
