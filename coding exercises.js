@@ -227,3 +227,6 @@ Some/Every:
 const allEvens = function (arr) {
   return arr.every(num => num % 2 === 0);
 }
+//coding exercise 51
+const image = document.getElementById('unicorn');
+const heading = document.getElementById('mainheading');
