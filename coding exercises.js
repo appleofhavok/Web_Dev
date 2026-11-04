@@ -230,3 +230,6 @@ const allEvens = function (arr) {
 //coding exercise 51
 const image = document.getElementById('unicorn');
 const heading = document.getElementById('mainheading');
+//coding exercise 52
+const doneTodos = document.querySelectorAll('.done');
+const checkbox = document.querySelector('input[type="checkbox"]');
