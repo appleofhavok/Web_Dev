@@ -290,3 +290,14 @@ form.addEventListener('submit', function (e) {
   ul.appendChild(li);
   form.reset();
 });
+//coding exercise 62
+const heading = document.querySelector('h1');
+const input = document.querySelector('input');
+ 
+input.addEventListener('input', function () {
+  if (input.value === '') {
+    heading.innerText = `Enter Your Username`
+  } else {
+    heading.innerText = `Welcome, ${input.value}`;
+  }
+});
