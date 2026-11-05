@@ -267,3 +267,13 @@ for (let i = 0; i < 100; i++) {
   btn.innerText = 'Click';
   container.appendChild(btn);
 }
+//coding exercise 60
+const helloButton = document.querySelector('#hello');
+helloButton.addEventListener('click', function () {
+  console.log('hello');
+});
+ 
+const goodbyeButton = document.querySelector('#goodbye');
+goodbyeButton.addEventListener('click', function () {
+  console.log('goodbye');
+});
