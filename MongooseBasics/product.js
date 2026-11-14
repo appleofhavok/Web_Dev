@@ -84,16 +84,16 @@ const findProduct = async () => {
 
 
 
-// const bike = new Product({ name: 'Cycling Jersey', price: 28.50, categories: ['Cycling'], size: 'XS' })
-// bike.save()
-//     .then(data => {
-//         console.log("IT WORKED!")
-//         console.log(data);
-//     })
-//     .catch(err => {
-//         console.log("OH NO ERROR!")
-//         console.log(err)
-//     })
+ const bike = new Product({ name: 'Cycling Jersey', price: 28.50, categories: ['Cycling'], size: 'XS' })
+ bike.save()
+     .then(data => {
+         console.log("IT WORKED!")
+         console.log(data);
+     })
+     .catch(err => {
+         console.log("OH NO ERROR!")
+         console.log(err)
+     })
 
 // Product.findOneAndUpdate({ name: 'Tire Pump' }, { price: 9 }, { new: true, runValidators: true })
 //     .then(data => {
