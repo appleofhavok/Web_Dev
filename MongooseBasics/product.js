@@ -41,10 +41,10 @@ const productSchema = new mongoose.Schema({
 
 });
 
-// productSchema.methods.greet = function () {
-//     console.log("HELLLO!!! HI!! HOWDY!!! ")
-//     console.log(`- from ${this.name}`)
-// }
+productSchema.methods.greet = function () {
+     console.log("HELLLO!!! HI!! HOWDY!!! ")
+     console.log(`- from ${this.name}`)
+ }
 
 productSchema.methods.toggleOnSale = function () {
     this.onSale = !this.onSale;
