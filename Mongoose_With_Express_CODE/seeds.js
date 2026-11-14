@@ -52,9 +52,9 @@ const seedProducts = [
 ]
 
 Product.insertMany(seedProducts)
-    .then(res => {
-        console.log(res)
-    })
-    .catch(e => {
-        console.log(e)
-    })
+  .then(res => {
+    console.log(res)
+  })  
+  .catch(e => {
+    console.log(e)
+  })
